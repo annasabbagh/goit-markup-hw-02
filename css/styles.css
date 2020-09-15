@@ -29,7 +29,7 @@
     color: #FFFFFF;
 }
 .logo-accent-color{
-    color: #2196F3;
+    color: var(--accent-color);
 }
 body {
     font-family: var(--main-font);
@@ -235,7 +235,7 @@ body {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: var (--title-color);
+    color: var(--title-color);
 }
 .portfolio-project-type {
     font-weight: normal;
