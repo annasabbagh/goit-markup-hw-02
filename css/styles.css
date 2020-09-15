@@ -1,0 +1,249 @@
+:root {
+    --main-font: "Roboto", sans-serif;
+    --secondary-font: "Raleway", sans-serif;
+    --accent-color: #2196F3;
+    --title-color: #212121;
+    --description-color: #757575;
+}
+
+
+/* ====== COMPONENTS ====== */
+
+.logo-light-theme{
+    font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: #000000;
+    
+}
+.logo-dark-theme{
+    font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.logo-accent-color{
+    color: #2196F3;
+}
+body {
+    font-family: var(--main-font);
+    font-style: normal;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    font-style: normal;
+}
+
+.section-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.167;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+}
+/* ====== END-COMPONENTS ====== */
+
+
+/* ====== HEADER ====== */
+
+/*
+.header
+.navigation
+.navigation-list
+.navigation-list-item
+*/
+
+.navigation-list-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+    }
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.header-mail-tel-link:hover,
+.header-mail-tel-link:focus{
+    color: var(--accent-color);
+}
+
+.header-mail-tel-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.02em;
+    color: var(--description-color);
+}
+/* ====== END-HEADER ====== */
+
+
+/* ====== HERO ====== */
+/* .hero */
+
+.hero-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    }
+.hero-modal-button{
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    }
+/* ====== END-HERO ====== */
+
+
+/* ====== OUR-QUALITIES ====== */
+/*
+.our-qualities
+.our-qualities-list
+.our-qualities-list-item
+*/
+
+.our-qualities-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-color);
+}
+.our-qualities-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--description-color);
+}
+/* ====== END-OUR-QUALITIES ====== */
+
+
+/* ====== WHAT-WE-ARE-DOING ====== */
+/*
+.what-we-are-doing
+.what-we-are-doing-list
+.what-we-are-doing-list-item
+*/
+/* ====== END-WHAT-WE-ARE-DOING ====== */
+
+
+/* ====== OUR-TEAM ====== */
+/*
+.our-team
+.our-team-list
+.our-team-list-item
+.our-team-img
+*/
+
+.our-team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.188;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+}
+
+.our-team-position{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.188;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--description-color);
+}
+/* ====== END-OUR-TEAM ====== */
+
+
+/* ====== FOOTER ====== */
+.footer{
+    background-color: #2F303A;
+}
+.footer-address-link{
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.footer-mail-tel-link{
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+/* ====== END-FOOTER ====== */
+
+/* ====== PORTFOLIO-FILTERS ====== */
+/*
+.portfolio-filter-list
+.portfolio-filter-list-item
+*/
+
+.portfolio-filter-button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var (--title-color);
+}
+.portfolio-filter-button:hover,
+.portfolio-filter-button:focus { 
+    color: #FFFFFF;
+}
+/* ====== END-PORTFOLIO-FILTERS ====== */
+
+
+/* ====== PORTFOLIO-PROJECTS ====== */
+.portfolio-projects-list
+.portfolio-projects-list-item
+
+.portfolio-project-name{
+    
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var (--title-color);
+}
+.portfolio-project-type {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--description-color);
+}
+
+/* ====== END-PORTFOLIO-PROJECTS ====== */
+
+
