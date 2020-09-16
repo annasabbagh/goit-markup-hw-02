@@ -4,6 +4,10 @@
     --accent-color: #2196F3;
     --title-color: #212121;
     --description-color: #757575;
+    --main-light-theme-color:#FFFFFF;
+    --buttons-bg-color:#F5F4FA;
+    --footer-address-color: rgba(255, 255, 255, 0.6);
+    --footer-bg-color: #2F303A;
 }
 
 
@@ -11,7 +15,6 @@
 
 .logo-light-theme{
     font-family: var(--secondary-font);
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.192;
@@ -21,19 +24,17 @@
 }
 .logo-dark-theme{
     font-family: var(--secondary-font);
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.192;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--main-light-theme-color);
 }
 .logo-accent-color{
     color: var(--accent-color);
 }
 body {
     font-family: var(--main-font);
-    font-style: normal;
 }
 
 .list {
@@ -42,7 +43,6 @@ body {
 
 .link {
     text-decoration: none;
-    font-style: normal;
 }
 
 .section-title{
@@ -95,7 +95,9 @@ body {
 
 
 /* ====== HERO ====== */
-/* .hero */
+.hero {
+    background-color: var(--footer-bg-color);
+}
 
 .hero-title {
     font-weight: 900;
@@ -104,10 +106,10 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    color: var(--main-light-theme-color);
     }
 .hero-modal-button {
     font-family: var(--main-font);
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.875;
@@ -115,7 +117,7 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
+    color: var(--main-light-theme-color);
     }
 /* ====== END-HERO ====== */
 
@@ -155,8 +157,11 @@ body {
 
 
 /* ====== OUR-TEAM ====== */
+
+.our-team {
+    background-color: var(--buttons-bg-color);
+}
 /*
-.our-team
 .our-team-list
 .our-team-list-item
 .our-team-img
@@ -188,23 +193,28 @@ body {
 }
 .footer-address-link{
     font-family: var(--main-font);
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--main-light-theme-color);
 }
 
 .footer-mail-tel-link{
     font-family: var(--main-font);
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--footer-address-color);
 }
+.footer-address-link:hover,
+.footer-address-link:focus,
+.footer-mail-tel-link:hover,
+.footer-mail-tel-link:focus{
+    color: var(--accent-color);
+}
+
 /* ====== END-FOOTER ====== */
 
 /* ====== PORTFOLIO-FILTERS ====== */
@@ -220,10 +230,13 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: var (--title-color);
+    background-color: var(--buttons-bg-color);
+    border: none;
 }
 .portfolio-filter-button:hover,
 .portfolio-filter-button:focus { 
-    color: #FFFFFF;
+    color: var(--main-light-theme-color);
+    background-color: var(--accent-color);
 }
 /* ====== END-PORTFOLIO-FILTERS ====== */
 
@@ -250,5 +263,3 @@ body {
 }
 
 /* ====== END-PORTFOLIO-PROJECTS ====== */
-
-
