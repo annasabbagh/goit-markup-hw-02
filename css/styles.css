@@ -6,8 +6,6 @@
     --description-color: #757575;
     --main-light-theme-color:#FFFFFF;
     --buttons-bg-color:#F5F4FA;
-    --footer-address-color: rgba(255, 255, 255, 0.6);
-    --footer-bg-color: #2F303A;
 }
 
 
@@ -190,11 +188,12 @@ body {
 
 /* ====== FOOTER ====== */
 .footer{
-    background-color: #2F303A;
+    background-color: #2F303A; 
 }
 .footer-address-link{
     font-family: var(--main-font);
     font-weight: 400;
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -204,10 +203,11 @@ body {
 .footer-mail-tel-link{
     font-family: var(--main-font);
     font-weight: 400;
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--footer-address-color);
+    color: rgba(255, 255, 255, 0.6);
 }
 .footer-address-link:hover,
 .footer-address-link:focus,
@@ -230,7 +230,7 @@ body {
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var (--title-color);
+    color: var(--title-color);
     background-color: var(--buttons-bg-color);
     border: none;
 }
@@ -248,6 +248,7 @@ body {
 .portfolio-projects-list-item
 */
 
+
 .portfolio-project-name{
     font-weight: 700;
     font-size: 18px;
@@ -256,7 +257,7 @@ body {
     color: var(--title-color);
 }
 .portfolio-project-type {
-    font-weight: normal;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
